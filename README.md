@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://sitenomads.nl">SiteNomads.nl</a> &nbsp; / &nbsp;
   <a href="#citylife">Citylife</a> &nbsp; / &nbsp;
-  <a href="#project-directory">Project directory</a> &nbsp; / &nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
   <a href="https://github.com/dfcgaming?tab=repositories">Public repositories</a>
 </p>
 
@@ -45,25 +45,24 @@ SiteNomads brings together the areas I work in professionally. I provide hosting
 </tr>
 </table>
 
-## Project directory
+## Selected work
 
-| Area | Project | What it is | Source |
-| :--- | :--- | :--- | :--- |
-| **Minecraft life simulation** | [Citylife](#citylife) | A dedicated roleplay world with banking, jobs, businesses, property, and city systems | Private |
-| **Hosting & infrastructure** | [Cloud Haven](#cloud-haven) | A hosting control panel for isolated applications and connected server nodes | Private |
-| **Research & investigation** | [Timelino](#timelino) | An early investigation-software project for organising and retrieving collected information | Private |
-| **Reading & collaboration** | [Schrift / BibleApp](#schrift--bibleapp) | A Bible reader with translation comparison, notes, study boards, and shared sessions | Private |
-| **Mobile & real-time systems** | [MotoMeeting](#motomeeting) | A riding app with live positions, communication, meetings, and traffic information | Private |
-| **Minecraft horror** | [Enderman](#enderman) | An asymmetric gamemode built around a hunt, collectible pages, and changing player roles | Private |
-| **Minecraft survival** | [Apocolypse](#apocolypse) | A movie-inspired zombie apocalypse project with custom combat and enemy behaviour | Private |
-| **Developer tools** | [Spigot Auto Reloader](#spigot-auto-reloader) | A hot-reload helper for the Minecraft plugin development cycle | Private |
-| **Browser tools** | [StructlyDiagrams](#structlydiagrams) | A static infrastructure diagram editor with JSON, SVG, and PNG export | [Public](https://github.com/dfcgaming/StructlyDiagrams) |
+<p><b>Minecraft worlds</b> &nbsp; / &nbsp; <b>Hosting &amp; infrastructure</b> &nbsp; / &nbsp; <b>Research &amp; collaboration</b> &nbsp; / &nbsp; <b>Connected applications</b></p>
 
-## Minecraft worlds and gamemodes
+### Featured project
 
-### Citylife
+<table>
+<tr>
+<td valign="top">
+<a id="citylife"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/citylife.svg" alt="Citylife — minecraft life simulation" width="100%" />
+<h3>Citylife</h3>
+<p>A dedicated life simulator with banking, businesses, employment, property, and a connected city.</p>
+<table><tr><td width="33%" align="center"><b>Economy &amp; transactions</b></td><td width="33%" align="center"><b>Jobs &amp; businesses</b></td><td width="33%" align="center"><b>Property &amp; access</b></td></tr></table>
+<p><sub><a href="https://github.com/dfcgaming/cityliferesourcepack">Resource pack</a></sub></p>
 
-**A fully dedicated life simulator in Minecraft, and one of the projects that means the most to me.**
+<details>
+<summary><b>Read the Citylife story</b></summary>
 
 Citylife has been a big part of my life and my work as a developer. The idea was to build a city people could live a role in: have a job, run a business, use a bank account, own or access property, and take part in a world shaped by other players.
 
@@ -87,49 +86,26 @@ Citylife represents the kind of development I enjoy most: several systems workin
 
 [Public Citylife resource pack](https://github.com/dfcgaming/cityliferesourcepack)
 
-### Enderman
+</details>
 
-**A multiplayer horror gamemode where the balance changes during the match.**
+</td>
+</tr>
+</table>
 
-In Enderman, one player takes the Enderman role while the others become the hunted players. The players have to search the map and collect pages before time runs out. Once all pages have been collected, the Enderman becomes vulnerable and the hunted players can fight back.
+### Hosting and infrastructure
 
-That transition is the centre of the gamemode. The first part of a match is about surviving and finding the objectives; finishing them changes what both sides can do.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a id="cloud-haven"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/cloud-haven.svg" alt="Cloud Haven — hosting & infrastructure" width="100%" />
+<h3>Cloud Haven</h3>
+<p>A hosting control panel for isolated applications, customers, resellers, and connected server nodes.</p>
+<p><b>Per-site isolation</b><br/><b>Runtime provisioning</b><br/><b>Cross-node routing</b></p>
+<p><sub>Private source</sub></p>
 
-The project includes round timers, map configuration, player disguises, spectator handling, random power-up spawns, and light effects. The Enderman ability set includes leap, blackout, power-up blocking, and jumpscare mechanics. The opposing players have tools such as invisibility, stun, flashbangs, and slowdown effects.
-
-**Technologies:** Java, Spigot/Bukkit, event-driven game logic, map tools, and player disguises.
-
-### Apocolypse
-
-**A zombie-apocalypse project inspired by movies.**
-
-Apocolypse was a way to bring that kind of survival setting into Minecraft: dangerous infected enemies, firearms, military elements, and moments of panic.
-
-The code explores zombies climbing obstacles, custom weapons with ammunition and reload timings, flashbangs, military NPCs, and an airstrike mechanic. Loot replenishment and airdrops were also part of the direction, with some of those systems still at a prototype stage.
-
-The story behind it is different from Citylife. Citylife is about building ordinary life into a world; Apocolypse is about what happens when that world becomes hostile.
-
-**Technologies:** Java, Paper/Spigot APIs, custom entities, weapons, timed effects, and resource-pack work.
-
-[Public Apocolypse texture pack](https://github.com/dfcgaming/apocolypsetexturepack)
-
-### Spigot Auto Reloader
-
-**A development helper for testing changes to Minecraft plugins.**
-
-Working on plugins involves a repeated cycle: change code, build the plugin, put it on the server, and test again. Spigot Auto Reloader came from that part of the work.
-
-It watches plugin JAR modification times and reacts when a file changes. Its reload path can disable and re-enable the plugin, with an optional full-server reload mode. It uses plugin lifecycle reloads to shorten my development and testing cycle.
-
-It is a smaller project than the gamemodes, but it belongs in the same story: building tools around the work I spend time doing.
-
-**Technologies:** Java, Bukkit plugin lifecycle APIs, scheduling, and file-change detection.
-
-## Hosting and infrastructure
-
-### Cloud Haven
-
-**A hosting control panel that can run on one server or connect several nodes.**
+<details>
+<summary><b>Read the Cloud Haven story</b></summary>
 
 Cloud Haven brings my Laravel development and hosting interests together. It manages sites, customer and reseller accounts, application runtimes, operations, and connected nodes through a Laravel and Filament panel.
 
@@ -143,9 +119,19 @@ For me, this project is about taking the work around hosting and making it manag
 
 **Technologies:** Laravel, PHP, Filament, Livewire, Docker Compose, PostgreSQL, Redis, Traefik, Nginx, and PHP-FPM.
 
-### StructlyDiagrams
+</details>
 
-**An infrastructure diagram builder that runs in the browser.**
+</td>
+<td width="50%" valign="top">
+<a id="structlydiagrams"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/structlydiagrams.svg" alt="StructlyDiagrams — browser tooling" width="100%" />
+<h3>StructlyDiagrams</h3>
+<p>A browser-based canvas for documenting infrastructure, connecting components, and exporting diagrams.</p>
+<p><b>Drag-and-drop editor</b><br/><b>Auto layout</b><br/><b>JSON / SVG / PNG</b></p>
+<p><sub><a href="https://dfcgaming.github.io/StructlyDiagrams/">Open application</a> &nbsp; / &nbsp; <a href="https://github.com/dfcgaming/StructlyDiagrams">Source code</a></sub></p>
+
+<details>
+<summary><b>Read the StructlyDiagrams story</b></summary>
 
 [View repository](https://github.com/dfcgaming/StructlyDiagrams) · [Open the application](https://dfcgaming.github.io/StructlyDiagrams/)
 
@@ -157,11 +143,26 @@ It includes automatic layout, collapsible branches, label highlighting, and zoom
 
 The application uses **TypeScript, SCSS, and Webpack**, with vanilla DOM manipulation and no runtime dependencies. It runs as a static page without a backend or login, and is deployed through GitHub Pages.
 
-## Research, reading, and collaboration
+</details>
 
-### Timelino
+</td>
+</tr>
+</table>
 
-**Investigation software connected to a personal ambition.**
+### Research and collaboration
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a id="timelino"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/timelino.svg" alt="Timelino — research & investigation" width="100%" />
+<h3>Timelino</h3>
+<p>An early investigation workspace, tied to my ambition to become a private investigator and help people.</p>
+<p><b>Investigation workspace</b><br/><b>Information retrieval</b><br/><b>Early development</b></p>
+<p><sub>Private source</sub></p>
+
+<details>
+<summary><b>Read the Timelino story</b></summary>
 
 I want to become a private investigator so I can help people. Timelino comes from that goal and the need for a safe, flexible way to collect information, keep it organised, and find it again.
 
@@ -169,9 +170,19 @@ Investigation work can involve a growing amount of material. My aim is to build 
 
 The repository is currently at an early stage, with a **Laravel scaffold and a Docker-based development environment**. The focus at this stage is on laying the foundation for safe information handling and useful retrieval.
 
-### Schrift / BibleApp
+</details>
 
-**A Bible reader built for personal study and reading together.**
+</td>
+<td width="50%" valign="top">
+<a id="schrift--bibleapp"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/schrift.svg" alt="Schrift / BibleApp — reading & collaboration" width="100%" />
+<h3>Schrift / BibleApp</h3>
+<p>A Bible reader that connects translation comparison, personal notes, visual study boards, and shared sessions.</p>
+<p><b>Translation comparison</b><br/><b>Linked study boards</b><br/><b>Live shared sessions</b></p>
+<p><sub>Private source</sub></p>
+
+<details>
+<summary><b>Read the Schrift / BibleApp story</b></summary>
 
 BibleApp, named **Schrift** in the application, goes beyond displaying chapters. It combines reading with tools for comparing translations, keeping notes, and exploring words and references.
 
@@ -183,11 +194,79 @@ The repository also records a move from an earlier Node application to a **Larav
 
 **Technologies:** Laravel, Livewire, MySQL, Redis, Reverb, background jobs, Docker, and browser-side interactions.
 
-## Mobile and real-time applications
+</details>
 
-### MotoMeeting
+</td>
+</tr>
+</table>
 
-**An app for people who want to ride together and stay connected.**
+### Minecraft gamemodes
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a id="enderman"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/enderman.svg" alt="Enderman — multiplayer horror" width="100%" />
+<h3>Enderman</h3>
+<p>An asymmetric horror gamemode where collecting every page turns the Enderman from hunter into a target.</p>
+<p><b>Timed objectives</b><br/><b>Role-based abilities</b><br/><b>Round management</b></p>
+<p><sub>Private source</sub></p>
+
+<details>
+<summary><b>Read the Enderman story</b></summary>
+
+In Enderman, one player takes the Enderman role while the others become the hunted players. The players have to search the map and collect pages before time runs out. Once all pages have been collected, the Enderman becomes vulnerable and the hunted players can fight back.
+
+That transition is the centre of the gamemode. The first part of a match is about surviving and finding the objectives; finishing them changes what both sides can do.
+
+The project includes round timers, map configuration, player disguises, spectator handling, random power-up spawns, and light effects. The Enderman ability set includes leap, blackout, power-up blocking, and jumpscare mechanics. The opposing players have tools such as invisibility, stun, flashbangs, and slowdown effects.
+
+**Technologies:** Java, Spigot/Bukkit, event-driven game logic, map tools, and player disguises.
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+<a id="apocolypse"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/apocolypse.svg" alt="Apocolypse — zombie survival" width="100%" />
+<h3>Apocolypse</h3>
+<p>A movie-inspired zombie apocalypse with climbing enemies, firearms, military elements, and survival experiments.</p>
+<p><b>Custom enemy behaviour</b><br/><b>Ammunition & reloads</b><br/><b>Cinematic effects</b></p>
+<p><sub><a href="https://github.com/dfcgaming/apocolypsetexturepack">Texture pack</a></sub></p>
+
+<details>
+<summary><b>Read the Apocolypse story</b></summary>
+
+Apocolypse was a way to bring that kind of survival setting into Minecraft: dangerous infected enemies, firearms, military elements, and moments of panic.
+
+The code explores zombies climbing obstacles, custom weapons with ammunition and reload timings, flashbangs, military NPCs, and an airstrike mechanic. Loot replenishment and airdrops were also part of the direction, with some of those systems still at a prototype stage.
+
+The story behind it is different from Citylife. Citylife is about building ordinary life into a world; Apocolypse is about what happens when that world becomes hostile.
+
+**Technologies:** Java, Paper/Spigot APIs, custom entities, weapons, timed effects, and resource-pack work.
+
+[Public Apocolypse texture pack](https://github.com/dfcgaming/apocolypsetexturepack)
+
+</details>
+
+</td>
+</tr>
+</table>
+
+### Connected applications and developer tools
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a id="motomeeting"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/motomeeting.svg" alt="MotoMeeting — mobile & real-time systems" width="100%" />
+<h3>MotoMeeting</h3>
+<p>A social riding app combining live rider positions, routes, meetings, communication, and traffic information.</p>
+<p><b>Live rider map</b><br/><b>Socket communication</b><br/><b>Android & Flutter</b></p>
+<p><sub>Private source</sub></p>
+
+<details>
+<summary><b>Read the MotoMeeting story</b></summary>
 
 MotoMeeting was built around a social part of riding: seeing where other people are, finding each other, arranging a meeting, and communicating while out on the road.
 
@@ -198,6 +277,35 @@ Communication was also part of the idea, including calls over WebSockets. Traffi
 That made MotoMeeting a project across several layers at once: the phone's location services, the map interface, the social features, and the server keeping connected users up to date.
 
 **Technologies:** Kotlin/Android, Flutter/Dart, Node.js, Express, Socket.IO, MySQL, Google Maps, and Firebase integrations.
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+<a id="spigot-auto-reloader"></a>
+<img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/portfolio/spigot-auto-reloader.svg" alt="Spigot Auto Reloader — developer tooling" width="100%" />
+<h3>Spigot Auto Reloader</h3>
+<p>A plugin development helper that detects changed JAR files and triggers plugin or server reloads.</p>
+<p><b>JAR change detection</b><br/><b>Plugin lifecycle hooks</b><br/><b>Reload configuration</b></p>
+<p><sub>Private source</sub></p>
+
+<details>
+<summary><b>Read the Spigot Auto Reloader story</b></summary>
+
+Working on plugins involves a repeated cycle: change code, build the plugin, put it on the server, and test again. Spigot Auto Reloader came from that part of the work.
+
+It watches plugin JAR modification times and reacts when a file changes. Its reload path can disable and re-enable the plugin, with an optional full-server reload mode. It uses plugin lifecycle reloads to shorten my development and testing cycle.
+
+It is a smaller project than the gamemodes, but it belongs in the same story: building tools around the work I spend time doing.
+
+**Technologies:** Java, Bukkit plugin lifecycle APIs, scheduling, and file-change detection.
+
+</details>
+
+</td>
+</tr>
+</table>
+
 
 ## Development experience
 

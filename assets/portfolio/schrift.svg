@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="t d">
+<title id="t">Schrift / BibleApp</title><desc id="d">Read closely. Study together.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1224"/><stop offset="1" stop-color="#211739"/></linearGradient><linearGradient id="accent"><stop stop-color="#69cbd5"/><stop offset="1" stop-color="#ad91ee"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b5a3d9" stroke-opacity=".055"/></pattern></defs>
+<rect width="900" height="320" rx="12" fill="url(#bg)"/><rect width="900" height="320" rx="12" fill="url(#grid)"/>
+<text x="38" y="42" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#b2a0d6">05 / READING &amp; COLLABORATION</text>
+<text x="38" y="128" font-family="Segoe UI,Arial,sans-serif" font-size="40" fill="#f2f4fd">Schrift / BibleApp</text>
+<text x="40" y="170" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#bcc8de">Read closely. Study together.</text>
+<text x="40" y="263" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#9bb6ce">LARAVEL / LIVEWIRE / REVERB</text>
+<g transform="translate(540 28) scale(0.86)"><path d="M8 45Q85 15 165 60Q245 15 328 45V240Q245 210 165 255Q85 210 8 240Z" stroke="#ac9add" stroke-width="3" fill="#161e35" stroke-linecap="square" stroke-linejoin="round"/><path d="M165 60V255 M32 80L132 97 M32 107L132 124 M32 134L110 147 M197 97L300 80 M197 124L300 107 M197 151L280 136" stroke="#7c91b7" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="round"/><rect x="260" y="168" width="85" height="62" rx="5" fill="#292445" stroke="#70bdcf" stroke-opacity=".65"/><path d="M275 188H330 M275 207H312" stroke="#aab1d2" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="round"/></g>
+<path d="M0 316H900" stroke="url(#accent)" stroke-width="8"/></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="t d">
+<title id="t">Apocolypse</title><desc id="d">A world turned hostile.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1224"/><stop offset="1" stop-color="#211739"/></linearGradient><linearGradient id="accent"><stop stop-color="#69cbd5"/><stop offset="1" stop-color="#ad91ee"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b5a3d9" stroke-opacity=".055"/></pattern></defs>
+<rect width="900" height="320" rx="12" fill="url(#bg)"/><rect width="900" height="320" rx="12" fill="url(#grid)"/>
+<text x="38" y="42" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#b2a0d6">07 / ZOMBIE SURVIVAL</text>
+<text x="38" y="128" font-family="Segoe UI,Arial,sans-serif" font-size="46" fill="#f2f4fd">Apocolypse</text>
+<text x="40" y="170" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#bcc8de">A world turned hostile.</text>
+<text x="40" y="263" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#9bb6ce">JAVA / PAPER / CUSTOM COMBAT</text>
+<g transform="translate(540 28) scale(0.86)"><path d="M10 240H345 M30 240V165L65 135H105V95H145V135H180V75H230V150H265V110H300V240" stroke="#82749e" stroke-width="3" fill="#191a2b" stroke-linecap="square" stroke-linejoin="round"/><path d="M0 35H350 M0 48H350" stroke="#9d80c7" stroke-width="2" fill="none" stroke-linecap="square" stroke-linejoin="round"/><path d="M20 35L38 48 M65 35L83 48 M110 35L128 48 M155 35L173 48 M200 35L218 48 M245 35L263 48 M290 35L308 48" stroke="#b3a0cc" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="round"/><rect x="125" y="185" width="75" height="42" rx="0" fill="#292139" stroke="#b29acb" stroke-opacity=".65"/><path d="M140 196H185 M140 211H172" stroke="#81a7bf" stroke-width="2" fill="none" stroke-linecap="square" stroke-linejoin="round"/></g>
+<path d="M0 316H900" stroke="url(#accent)" stroke-width="8"/></svg>
