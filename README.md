@@ -81,7 +81,7 @@ The project includes:
 
 The Java plugin connects to backend services through socket-based requests. Banking, employment, businesses, and player data therefore extend beyond individual in-game commands.
 
-Citylife represents the kind of development I enjoy most: several systems working together over time, with people giving them a purpose. It is a substantial part of my Minecraft development history, rather than a small standalone plugin.
+Citylife represents the kind of development I enjoy most: several systems working together over time, with people giving them a purpose. It is a substantial part of my Minecraft development history.
 
 **Technologies:** Java, Spigot/Bukkit APIs, Socket.IO integration, custom inventory interfaces, backend services, and resource-pack assets.
 
@@ -119,7 +119,7 @@ The story behind it is different from Citylife. Citylife is about building ordin
 
 Working on plugins involves a repeated cycle: change code, build the plugin, put it on the server, and test again. Spigot Auto Reloader came from that part of the work.
 
-It watches plugin JAR modification times and reacts when a file changes. Its reload path can disable and re-enable the plugin, with an optional full-server reload mode. This is my hot-reload / hot-patch workflow helper; the implementation uses plugin lifecycle reloads rather than JVM bytecode replacement.
+It watches plugin JAR modification times and reacts when a file changes. Its reload path can disable and re-enable the plugin, with an optional full-server reload mode. It uses plugin lifecycle reloads to shorten my development and testing cycle.
 
 It is a smaller project than the gamemodes, but it belongs in the same story: building tools around the work I spend time doing.
 
@@ -167,7 +167,7 @@ I want to become a private investigator so I can help people. Timelino comes fro
 
 Investigation work can involve a growing amount of material. My aim is to build a workspace where information can be stored dynamically and retrieved when it matters, rather than becoming scattered across separate files and notes.
 
-The repository is currently at an early stage, with a **Laravel scaffold and a Docker-based development environment**. Safe information handling and useful retrieval are design goals for the project, rather than a claim that a finished investigation platform is already available.
+The repository is currently at an early stage, with a **Laravel scaffold and a Docker-based development environment**. The focus at this stage is on laying the foundation for safe information handling and useful retrieval.
 
 ### Schrift / BibleApp
 
