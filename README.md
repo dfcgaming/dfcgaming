@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/main/assets/header.svg" alt="Dylan — from web interfaces to Minecraft worlds" width="100%" />
+  <img src="https://raw.githubusercontent.com/dfcgaming/dfcgaming/57d95cf7de34e30b90cf9bbda47d5ef6b4003cb8/assets/header.svg" alt="Dylan — from web interfaces to Minecraft worlds" width="100%" />
 </p>
 
 <p align="center"><b>Full stack developer · Laravel & Livewire · JavaScript · Minecraft plugins</b></p>
