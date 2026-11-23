@@ -56,80 +56,26 @@ Teaching has also strengthened my ability to explain complex ideas clearly, help
 
 ## Selected Projects
 
-These projects show different parts of my development experience. Some repositories are private, but the summaries describe their scope and technologies.
+A snapshot of the software I've built across web development, infrastructure, mobile apps, and Java. **Public projects link to their source or a demo; other projects are private.**
 
-### Cloud Haven — Hosting & Infrastructure Platform
-**Laravel · PHP · Filament · Livewire · Docker Compose · PostgreSQL · Redis · Traefik · Nginx**
+### Web, Infrastructure & Mobile
 
-A hosting-management application for websites, isolated runtimes, customers, resellers, and connected server nodes.
+| Project | Highlights | Main technologies |
+| :--- | :--- | :--- |
+| **Cloud Haven** *(private)* | Hosting control panel; isolated Docker workloads, site provisioning, and multi-node routing. Backup and recovery features remain in development. | Laravel, Filament, Docker, PostgreSQL, Traefik |
+| **[StructlyDiagrams](https://github.com/dfcgaming/StructlyDiagrams)** ([Live demo](https://dfcgaming.github.io/StructlyDiagrams/)) | Drag-and-drop infrastructure diagram editor with automatic layouts and JSON, SVG, and PNG exports. | TypeScript, SCSS, Webpack |
+| **Schrift / BibleApp** *(private)* | Collaborative Bible reader with translation comparison, notes, visual study boards, and live shared sessions. | Laravel, Livewire, Reverb, MySQL |
+| **MotoMeeting** *(private)* | Rider-focused mobile app with live location sharing, maps, meeting requests, and real-time communication. | Kotlin, Flutter, Node.js, Socket.IO |
+| **Timelino** *(private; early-stage)* | Investigation workspace prototype for organising and retrieving information. | Laravel, Docker |
 
-- Designed per-site application isolation using separate Docker Compose projects and data boundaries.
-- Built around application provisioning, site operations, connected nodes, and routing between servers.
-- Explored backups, monitoring, Git-based deployment, and workflows for moving sites between nodes.
+### Java, Minecraft & Developer Tools
 
-*Private repository. Some operational and recovery capabilities are still in development.*
-
-### [StructlyDiagrams](https://github.com/dfcgaming/StructlyDiagrams) — Infrastructure Diagram Editor
-**TypeScript · SCSS · Webpack · Browser APIs**
-
-A browser-based tool for documenting network and infrastructure architecture.
-
-- Created an interactive canvas for servers, firewalls, switches, VLANs, Microsoft 365, Active Directory, VPNs, and related components.
-- Added drag-and-drop editing, component connections, inspectors, automatic layouts, and zoom controls.
-- Supported exporting diagrams as JSON, SVG, and PNG without requiring a backend.
-
-[Try the application](https://dfcgaming.github.io/StructlyDiagrams/) · [View source](https://github.com/dfcgaming/StructlyDiagrams)
-
-### Schrift / BibleApp — Collaborative Reading Application
-**Laravel · Livewire · MySQL · Redis · Reverb · Docker**
-
-A reading and study application combining personal research tools with live collaboration.
-
-- Developed features for translation comparison, notes, word indexing, and linked visual study boards.
-- Implemented the foundations for shared sessions with live reading positions, messages, and updates.
-- Worked on the transition from a Node-based implementation to Laravel and Livewire.
-
-*Private repository.*
-
-### MotoMeeting — Connected Riding Application
-**Kotlin · Android · Flutter · Dart · Node.js · Express · Socket.IO · MySQL**
-
-A mobile and backend project focused on connecting riders through maps, live locations, and group features.
-
-- Worked across Android, Flutter, and a Node.js backend.
-- Implemented real-time rider-location concepts, social features, meeting requests, and route interactions.
-- Integrated mapping, sockets, and location-sharing controls.
-
-*Private repository.*
-
-### Citylife — Minecraft Life Simulation
-**Java · Spigot/Bukkit APIs · Socket.IO · Backend Services**
-
-A large Minecraft roleplay project built around systems that interact like parts of a functioning city.
-
-- Developed banking, transactions, employment, business ownership, wages, and property systems.
-- Built access controls, player permissions, administration tools, and interactive city mechanics.
-- Connected Java plugin logic with backend services through socket-based communication.
-
-[Public resource pack](https://github.com/dfcgaming/cityliferesourcepack)
-
-### Timelino — Investigation Workspace
-**Laravel · Docker**
-
-An early-stage project exploring a structured workspace for collecting, organising, and retrieving investigation information.
-
-- Started the Laravel application and container-based development environment.
-- Focused on building a foundation for information handling and retrieval.
-
-*Private repository; early development.*
-
-### Additional Java & Developer Tools
-
-| Project | What I built or explored |
-| --- | --- |
-| **Enderman** | An asymmetric multiplayer horror gamemode with timed objectives, custom abilities, and round management |
-| **Apocolypse** | A zombie-survival gamemode with custom enemy behaviour, weapons, and environmental effects; [public texture pack](https://github.com/dfcgaming/apocolypsetexturepack) |
-| **Spigot Auto Reloader** | A Java developer tool that detects changed plugin JAR files and supports faster testing and reloading |
+| Project | Highlights | Main technologies |
+| :--- | :--- | :--- |
+| **Citylife** ([Resource pack](https://github.com/dfcgaming/cityliferesourcepack)) | Minecraft life simulator with banking, jobs, business ownership, property access, permissions, and backend integrations. | Java, Spigot/Bukkit, Socket.IO |
+| **Enderman** *(private)* | Multiplayer horror gamemode with player roles, special abilities, timed objectives, and round management. | Java, Spigot/Bukkit |
+| **Apocolypse** ([Texture pack](https://github.com/dfcgaming/apocolypsetexturepack)) | Zombie-survival gamemode featuring custom enemy behaviour, weapons, and cinematic effects. | Java, Paper/Spigot |
+| **Spigot Auto Reloader** *(private)* | Developer utility that detects changed plugin JARs and assists with plugin reloads while testing. | Java, Bukkit APIs |
 
 ## How I Approach Development
 
