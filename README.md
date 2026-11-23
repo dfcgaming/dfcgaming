@@ -74,7 +74,6 @@ A snapshot of the software I've built across web development, infrastructure, mo
 | :--- | :--- | :--- |
 | **Citylife** ([Resource pack](https://github.com/dfcgaming/cityliferesourcepack)) | Minecraft life simulator with banking, jobs, business ownership, property access, permissions, and backend integrations. | Java, Spigot/Bukkit, Socket.IO |
 | **Enderman** *(private)* | Multiplayer horror gamemode with player roles, special abilities, timed objectives, and round management. | Java, Spigot/Bukkit |
-| **Apocolypse** ([Texture pack](https://github.com/dfcgaming/apocolypsetexturepack)) | Zombie-survival gamemode featuring custom enemy behaviour, weapons, and cinematic effects. | Java, Paper/Spigot |
 | **Spigot Auto Reloader** *(private)* | Developer utility that detects changed plugin JARs and assists with plugin reloads while testing. | Java, Bukkit APIs |
 
 ## How I Approach Development
